@@ -6,6 +6,11 @@
     "type" : "git",
     "url" : "https://github.com/JustinBeckwith/nodistro.git"
   },
+  "scripts": {
+    "docker-build": "docker build -t wat .",
+    "docker-run": "docker run -it -p 3000:3000 wat",
+    "docker": "npm run docker-build && npm run docker-run"
+  },
   "author": "Justin Beckwith <justin.beckwith@gmail.com>",
   "license": "MIT",
   "dependencies": {
