@@ -17,3 +17,6 @@ EXPOSE 3000
 ENV NODE_ENV production
 ENTRYPOINT [ "/nodejs/bin/node", "server.js" ]
 ```
+
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/JustinBeckwith/nodistro.svg)](https://greenkeeper.io/)
